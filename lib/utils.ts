@@ -1,15 +1,16 @@
 import { type ClassValue, clsx } from "clsx";
 
-/*
 import { twMerge } from "tailwind-merge";
+
+/*
 import qs from "np";
 
 import { UrlQueryParams, RemoveUrlQueryParams } from "@/types";
 */
 
-/*export function cn(...inputs: ClassValue[]) {
+export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
-}*/
+}
 
 /*export const formatDateTime = (dateString: Date) => {
   const dateTimeOptions: Intl.DateTimeFormatOptions = {
